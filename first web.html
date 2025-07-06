@@ -1,0 +1,146 @@
+<!doctype html>
+<html>
+  <head>
+    <title> Dib yasser page </title>
+    <style>
+      header {
+        text-align: center;
+        color: black;
+        
+      }
+      main {
+        text-align: left;
+        color: black;
+        margin-top: 1px;
+      }
+      footer {
+        text-align: center;
+        color: black;
+        margin: 20px;
+        
+      }
+      body {
+       background-color: antiquewhite;
+       line-height: 20px;
+      }
+      form {
+       text-align: center;
+      }
+      .image:hover {
+       transform: scale(1.1);
+       transition: 1s;
+      }
+      textarea {
+       width: 500px;
+       height: 200px;
+       padding: 10px;
+       font-size: 14px;
+      }
+      nav {
+        background-color: black;
+      }
+     nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+     nav li {
+  display: inline ;
+  margin: 0px 50px;
+  
+}
+
+     nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+     nav a:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+    .container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+    .box {
+  background-color: blue;
+  color: brown;
+  font-size: 60px;
+  height: 100px;
+  width: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: all 1s;
+}
+    .box:hover {
+  background-color: rgb(94, 255, 0);
+  color: black;
+  transform: scale(1.2) rotate(360deg);
+}
+    </style>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#home"> home </a></li>
+        <li><a href="https://www.youtube.com/watch?v=xoVviNKbpNY"  target="_blank"> song </a></li>
+        <li><a href="#form"> conect us </a></li>
+      </ul>
+    </nav>
+    <header id="home">
+      <h1> Dib Yasser </h1>
+      <p> medical student & web developer </p>
+    </header>
+    <main>
+      <section>
+        <h2> welcome to my first web site </h2>
+        <p> iam learning now </p>
+      </section>
+      <section>
+        <h3> thanks for all who help me like GPT </h3>
+        <h4 id="song"> this is link for my favorite new song </h4>
+        <a href="https://www.youtube.com/watch?v=xoVviNKbpNY"  target="_blank"> to be hero x </a>
+      </section>
+      <section>
+        <form id="form">
+          <label for="name"> Name : </label><br>
+          <input type="text" id="name" name="name"><br><br>
+
+          <label for="email"> Email : </label><br>
+          <input type="email" id="email" name="email"><br><br>
+
+          <label for="message"> Message : </label><br>
+          <textarea  id="message" name="message"></textarea><br><br>
+
+          <button type="submit" style="margin-bottom: 30px;">send</button>
+        </form>
+        <div class="container">
+          <div class="box">I</div>
+          <div class="box">N</div>
+          <div class="box">F</div>
+          <div class="box">I</div>
+          <div class="box">N</div>
+          <div class="box">I</div>
+          <div class="box">T</div>
+          <div class="box">Y</div>
+
+        </div>
+      </section>
+    </main>
+      <footer>
+        &copy; dib yasser 2025 , all rights reserved .
+      </footer>
+  </body>
+</html>
